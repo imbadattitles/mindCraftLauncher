@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Launcher</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- Лаунчер -->
+    <div class="app">
+      <!-- Меню -->
+      <div class="header">
+        <img class="logo" src="./img/logo.svg" />
+        <ul class="nav">
+          <li class="nav__item">Уроки</li>
+          <li class="nav__item">Задания</li>
+          <li class="nav__item">Консультации</li>
+          <li class="nav__item">Настройки</li>
+        </ul>
+        <div class="manage__btns">
+          <img src="./img/hide.svg" class="hide" />
+          <img src="/img/close.svg" class="close" />
+          <img src="/img/question.svg" class="question" />
+        </div>
+      </div>
+      <!-- Меню -->
+
+      <div class="main">
+        <div class="main__left">
+          <!-- Левая сторона верх -->
+          <div class="left__top">
+            <div class="scrollLine"></div>
+            <div class="news">
+              <div style="background-image: url(/img/bg.png)" class="news_item">
+                <p class="title">Орбита как апогей</p>
+                <p class="date">12.12.2023</p>
+                <span class="blur"></span>
+              </div>
+              <div
+                style="background-image: url(/img/newsItem1.png)"
+                class="news_item"
+              >
+                <p class="title">Орбита как апогей</p>
+                <p class="date">12.12.2023</p>
+                <span class="blur"></span>
+              </div>
+              <div
+                style="background-image: url(/img/newsItem1.png)"
+                class="news_item"
+              >
+                <p class="title">Орбита как апогей</p>
+                <p class="date">12.12.2023</p>
+                <span class="blur"></span>
+              </div>
+              <div
+                style="background-image: url(/img/newsItem1.png)"
+                class="news_item"
+              >
+                <p class="title">Орбита как апогей</p>
+                <p class="date">12.12.2023</p>
+                <span class="blur"></span>
+              </div>
+            </div>
+          </div>
+          <!-- Левая сторона верх -->
+
+          <!-- Левая сторона низ -->
+          <div class="left__btm">
+            <div class="btm__item">
+              <img class="blur_red" src="./img/blur_red.svg" />
+              <img class="item_img" src="./img/btm__item1.png" />
+              <p class="btm_item-text">Вращательный Юпитер</p>
+            </div>
+            <div class="btm__item">
+              <img class="blur_red" src="./img/blur_red.svg" />
+              <img class="item_img" src="./img/btm__item1.png" />
+              <p class="btm_item-text">Юпитер</p>
+            </div>
+            <div class="btm__item">
+              <img class="blur_red" src="./img/blur_red.svg" />
+              <img class="item_img" src="./img/btm__item1.png" />
+              <p class="btm_item-text">Вращательный</p>
+            </div>
+            <div class="btm__item">
+              <img class="blur_red" src="./img/blur_red.svg" />
+              <img class="item_img" src="./img/btm__item1.png" />
+              <p class="btm_item-text">Вращательный Юпитер</p>
+            </div>
+            <div class="btm__item">
+              <img class="blur_red" src="./img/blur_red.svg" />
+              <img class="item_img" src="./img/btm__item1.png" />
+              <p class="btm_item-text">Вращательный Юпитер</p>
+            </div>
+            <div class="btm__item">
+              <img class="blur_red" src="./img/blur_red.svg" />
+              <img class="item_img" src="./img/btm__item1.png" />
+              <p class="btm_item-text">Юпитер</p>
+            </div>
+            <div class="btm__item">
+              <img class="blur_red" src="./img/blur_red.svg" />
+              <img class="item_img" src="./img/btm__item1.png" />
+              <p class="btm_item-text">Вращательный Юпитер</p>
+            </div>
+          </div>
+        </div>
+        <!-- Левая сторона низ -->
+
+        <!-- Правая сторона -->
+        <div class="main__right">
+          <div class="bg__blur"></div>
+          <div class="row">
+            <button class="start">Запуск</button>
+
+            <div class="border">
+              <div class="stat">
+                <div class="stat__item">
+                  <img src="/img/stat_spark.png" />
+                  <p class="stat__text">19 680</p>
+                </div>
+                <div class="stat__item">
+                  <img style="cursor: pointer" src="/img/stat_plusMinus.png" />
+                  <img src="/img/stat_idea.png" />
+                  <p class="stat__text">75</p>
+                </div>
+                <div class="stat__item">
+                  <img class="diamond" src="/img/stat_diamonds.png" />
+                  <p class="stat__text">1 800</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Правая сторона -->
+
+      <!-- Загрузка -->
+      <div class="loadBar">
+        <p
+          data-text="Вращательный Юпитер — актуальная национальная задача"
+          class="text"
+        >
+          Вращательный Юпитер — актуальная национальная задача
+        </p>
+
+        <!-- Индикатор загрузки, можно уменьшать width либо убрать его и просто добавлять img -->
+        <div style="width: 800px" class="process"></div>
+        <div class="loading">
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+          <img src="/img/load.svg" />
+        </div>
+      </div>
+      <!-- Загрузка -->
+    </div>
+    <!-- Лаунчер -->
+  </body>
+</html>
